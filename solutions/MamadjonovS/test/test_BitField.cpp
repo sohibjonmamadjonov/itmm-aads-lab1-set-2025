@@ -1,4 +1,4 @@
-#include "tbitfield.h"
+#include "BitField.h"
 
 #include <gtest.h>
 
