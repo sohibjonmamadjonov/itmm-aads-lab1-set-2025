@@ -270,7 +270,7 @@ TEST(TBitField, invert_plus_and_operator_on_different_size_bitfield)
   EXPECT_EQ(secondBf & negFirstBf, testBf);
 }
 
-TEST(TBitField, can_invert_many_random_bits_bitfield)
+TEST(TBitField, can_invert_many_random_bits_BitField)
 {
   const int size = 38;
   TBitField bf(size), negBf(size), expNegBf(size);
